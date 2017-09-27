@@ -1,0 +1,196 @@
+/* Tic Tac Toe */
+.ttt{
+    background: #1c1b1b;
+    color: #666;
+    font-family:"Arial", sans-serif;
+    width: 350px;
+    overflow: auto;
+    margin: 40px auto;
+    background: #666;
+    padding-bottom:40px;
+    border-radius: 10px;
+}
+
+#title{
+    text-align: center;
+    color: #fff;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#board li{
+    float: left;
+    margin: 10px;
+    height: 70px;
+    width: 70px;
+    font-size:55px;
+    background: #333;
+    list-style: none;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#board li:hover, #reset:hover{
+    cursor: pointer;
+    background: #000;
+}
+
+#reset{
+    border:0;
+    background: #444;
+    color: #fff;
+    width : 70%;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.o{
+    color: green !important;
+}
+
+.x{
+    color:red !important;
+}
+
+#button{
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 25px;
+}
+
+/* Tic Tac Toe End */
+a.button-ghost{
+    margin: 6.0rem 0 0;
+    padding: 1.4rem 3.2rem;
+    font-size: 1.4rem;
+    border: 2px solid green;
+}
+
+.button{
+    height: auto;
+    line-height: normal;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    transition: all .3s ease-in-out;
+    letter-spacing: 0;
+    border-radius: 50px;
+    background: #000;
+}
+
+/* jQuery Slide */
+
+ #body1{
+    font-family: 'Arial' sans-serif;
+    font-size: 14px;
+    color: #fff;
+    background: #333;
+    line-height: 1.6em;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+#container1{
+    width: 980px;
+    margin: 40px auto;
+    overflow: hidden;
+
+}
+
+#slider{
+    width: 980px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    float:left;
+    padding: 3px;
+    border: #666 solid 2px;
+    border-radius: 5px;
+}
+
+#slider img{
+    width: 980px;
+    height: 350px;
+    text-align: center;
+}
+
+.slide{
+    position: absolute;
+}
+.slide-copy{
+    position: absolute;
+    bottom:0;
+    left:0;
+    padding: 20px;
+    background: #7f7f7f;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#prev, #next{
+    float: left;
+    margin-top: 130px;
+    cursor: pointer;
+    position: relative;
+    z-index: 100;
+}
+#prev{
+    margin-right: -70px;
+}
+#next{
+    margin-left: -70px;
+} 
+
+/* contact */
+
+.contactMe{
+    width: 100%;
+    background: url(../img/summer.jpg);
+    background-position: bottom center;
+    height:600px;
+}
+.contactWrapper{
+    width:50%;
+    max-width: 710px;
+    margin:0px auto;
+    text-align: center;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 100px 0px 320px 0px;
+}
+#text{
+    font-family: 'Arial', sans-serif;
+    font-size: 60px;
+    line-height: 100px;
+    color:#5cb85c;
+    margin-bottom: 10px;  
+}
+.submitContact{
+    width: 100%;
+    margin: 0px auto;
+    max-width: 460px;
+    margin-top: 50px auto;
+}
+#contactp{
+    color: #5cb85c;
+}
+.submitBtnNew {
+    padding: 25px 0px 25px 0px;
+    background-color: #5cb85c;
+    height: -200px;
+    font-size: 50px;
+    line-height: 50px;
+    font-family: 'Arial', sans-serif;
+    color: #e6e8bf;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-appearance: none;
+    width: 90%;
+    margin: 20px 5% 0px 5%;
+    vertical-align: baseline;
+}
