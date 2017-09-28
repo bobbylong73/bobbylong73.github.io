@@ -1,0 +1,46 @@
+/*--contact form-- */
+#contactMe{
+    width: 100%;
+    
+    background-position: bottom center;
+    height:600px;
+}
+.contactWrapper{
+
+    
+    margin:0px auto;
+    text-align: center;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 100px 0px 320px 0px;
+}
+#text, #contactp{
+    font-family: 'Arial', sans-serif;
+    font-size: 50px;
+    line-height: 100px;
+    margin-bottom: 10px;  
+}
+.submitContact{
+    width: 100%;
+    margin: 0px auto;
+    max-width: 460px;
+    margin-top: 50px auto;
+}
+
+.submitBtnNew {
+    padding: 25px 0px 25px 0px;
+    background-color: #5cb85c;
+    height: -200px;
+    font-size: 50px;
+    line-height: 50px;
+    font-family: 'Arial', sans-serif;
+    color: #e6e8bf;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-appearance: none;
+    width: 90%;
+    margin: 20px 5% 0px 5%;
+    vertical-align: baseline;
+}
+
+/*--contact form-- */
