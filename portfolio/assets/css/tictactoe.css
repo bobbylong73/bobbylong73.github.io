@@ -5,7 +5,7 @@ body{
      
  }
  
- h1{
+ #ttt{
      text-align: center;
      color: #fff;
  }
@@ -90,7 +90,7 @@ body{
 	margin-top: 0px;
 	padding-top: 40px;
 	border-bottom: 1px solid #ddd;
-	text-align: center;
+	
 }
 
 #greywrap .callout {
@@ -102,13 +102,15 @@ body{
 	margin-right: 30px;
 	letter-spacing: 1px;
 	padding-top: 15px;
-	padding-bottom: 15px;
+    padding-bottom: 15px;
+    
 }
 
 #greywrap .icon {
 	font-size: 60px;
 	line-height: 30px;
-	margin-bottom: 10px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 #navbar-header{
@@ -134,3 +136,18 @@ body{
 .active{
     background-color: #2BA12F;
 }
+
+.row{
+    text-align: center;
+}
+
+#title{
+    text-align: center;
+}
+
+/* ]youtube*/
+
+#youtube{
+    text-align: center;
+}
+
